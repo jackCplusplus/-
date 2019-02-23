@@ -1,0 +1,23 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import os
+
+xmlfilepath = '/home/tony/darknet-master/VOCdevkit/VOC2018/JPEGImages'
+traintxt = open('/home/tony/darknet-master/VOCdevkit/VOC2018/ImageSets/Main/train.txt','w')
+testtxt = open('/home/tony/darknet-master/VOCdevkit/VOC2018/ImageSets/Main/test.txt','w')
+total_xml = os.listdir(xmlfilepath)
+total_xml.sort()
+i = 1
+for img_xml  in total_xml:
+    name=img_xml[0:6]
+    if(i % 11 == 0):
+         testtxt.write(name + '\n')
+    else:
+        traintxt.write(name + '\n')
+    i =i + 1
+
+
+
+
+    #print(name)
