@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>000609.jpg</filename>
+	<path>/home/tony/darknet-master/VOCdevkit/VOC2018/JPEGImages/000609.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chakong</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>448</xmin>
+			<ymin>177</ymin>
+			<xmax>940</xmax>
+			<ymax>652</ymax>
+		</bndbox>
+	</object>
+</annotation>
